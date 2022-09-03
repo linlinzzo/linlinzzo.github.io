@@ -135,4 +135,21 @@
     <noscript>Please enable JavaScript to view the <a href="https://github.com/utterance">comments powered by utterances.</a></noscript>
   {{- end }}
 
+  <!-- artalk -->
+  {{- if .Site.Params.artalk.server}}
+  <link href="/lib/artalk/Artalk.css" rel="stylesheet">
+  <script src="/lib/artalk/Artalk.js"></script>
+  <div id="Comments"></div>
+  <script>
+  new Artalk({
+    el:        '#Comments',
+    pageKey:   '{{ .Permalink }}',
+    pageTitle: '{{ .Title }}',
+    server:    '{{ .Site.Params.artalk.server }}',
+    site:      '{{ .Site.Params.artalk.site }}',
+    // ...你的其他配置
+  })
+  </script>
+{{- end }}
+
 {{- end }}
