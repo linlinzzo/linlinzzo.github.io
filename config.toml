@@ -1,4 +1,4 @@
-baseURL = "https://www.linlinzzo.top/"
+baseURL = "https://www.xiaozonglin.cn/"
 languageCode = "zh-cn"
 defaultContentLanguage = "zh-cn"                             # en / zh-cn / ... (This field determines which i18n file to use)
 title = "林林杂语"
@@ -47,7 +47,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   name = "开往"
   weight = 50
   identifier = ""
-  url = "https://travellings.link/"
+  url = "https://www.travellings.cn/go.html"
 [[menu.main]]
   name = "博客列表"
   weight = 60
@@ -65,8 +65,8 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
 
   # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
   logoTitle = "林林杂语"        # default: the title value    # 默认值: 上面设置的title值
- # keywords = [""]
-  description = "林林在无病呻吟"
+  keywords = ["林林的日常生活分享"]
+  description = "听！林林在无病呻吟"
 
   # paginate of archives, tags and categories             # 归档、标签、分类每页显示的文章数目，建议修改为一个较大的值
   archivePaginate = 50
@@ -194,13 +194,13 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   [params.social]                                         # 社交链接
     a-email = "mailto:812568734@qq.com"
 #   b-stack-overflow = "http://localhost:1313"
-#   c-twitter = "http://localhost:1313"
+   c-twitter = "https://www.twitter.com/linlinzzo"
 #   d-facebook = "http://localhost:1313"
 #   e-linkedin = "http://localhost:1313"
 #   f-google = "http://localhost:1313"
     g-github = "https://github.com/linlinzzo"
 #   h-weibo = "http://localhost:1313"
-   i-zhihu = "https://www.zhihu.com/people/linlinzzo.top"
+#  i-zhihu = "https://www.zhihu.com/people/linlinzzo.top"
 #   j-douban = "http://localhost:1313"
 #   k-pocket = "http://localhost:1313"
 #   l-tumblr = "http://localhost:1313"
