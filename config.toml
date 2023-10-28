@@ -168,7 +168,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
     visitor = false
   
   [params.artalk]
-    server = 'https://artalk.linlinzzo.top'
+    server = 'https://comment.travellings.cn'
     site = '林林杂语'
     
 
@@ -181,9 +181,9 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
     options = ""            # default: "{theme: 'simple'}"
 
   [params.busuanzi]         # count web traffic by busuanzi                             # 是否使用不蒜子统计站点访问量
-    enable = true
-    siteUV = true
-    sitePV = true
+    enable = false
+    siteUV = false
+    sitePV = false
     pagePV = false
 
   [params.reward]                                         # 文章打赏
